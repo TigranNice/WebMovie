@@ -1,10 +1,7 @@
 # Recommendation system for new users
 
 ## Project contain 3 part:
-### 1) Data analyze and creating SVD model for recommendation system
-Making predictions for further actions
-
-
+### 1) Data analyze, creating SVD model for recommendation system and making predictions for further actions
 
 Libraries are used:
 
