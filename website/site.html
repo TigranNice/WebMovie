@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Recommendation</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Movie Recommendation</h1>
+    <select id="mode">
+        <option value="/recommend/get_best_by_genres">Best by Genres</option>
+        <option value="/recommend/get_recommend_similar">Similar Users</option>
+        <option value="/recommend/get_recommend_by_ai">AI Recommendations</option>
+    </select>
+    <div id="genres">
+        <input type="checkbox" id="Adventure" name="Adventure" value="Adventure">
+        <label for="Adventure">Adventure</label><br>
+
+        <input type="checkbox" id="Animation" name="Animation" value="Animation">
+        <label for="Animation">Animation</label><br>
+
+        <input type="checkbox" id="Comedy" name="Comedy" value="Comedy">
+        <label for="Comedy">Comedy</label><br>
+
+        <input type="checkbox" id="Fantasy" name="Fantasy" value="Fantasy">
+        <label for="Fantasy">Fantasy</label><br>
+
+        <input type="checkbox" id="Romance" name="Romance" value="Romance">
+        <label for="Romance">Romance</label><br>
+
+        <input type="checkbox" id="Drama" name="Drama" value="Drama">
+        <label for="Drama">Drama</label><br>
+
+        <input type="checkbox" id="Action" name="Action" value="Action">
+        <label for="Action">Action</label><br>
+
+        <input type="checkbox" id="Crime" name="Crime" value="Crime">
+        <label for="Crime">Crime</label><br>
+
+        <input type="checkbox" id="Thriller" name="Thriller" value="Thriller">
+        <label for="Thriller">Thriller</label><br>
+
+        <input type="checkbox" id="Horror" name="Horror" value="Horror">
+        <label for="Horror">Horror</label><br>
+
+        <input type="checkbox" id="Mystery" name="Mystery" value="Mystery">
+        <label for="Mystery">Mystery</label><br>
+
+        <input type="checkbox" id="Sci-Fi" name="Sci-Fi" value="Sci-Fi">
+        <label for="Sci-Fi">Sci-Fi</label><br>
+
+        <input type="checkbox" id="War" name="War" value="War">
+        <label for="War">War</label><br>
+
+        <input type="checkbox" id="Musical" name="Musical" value="Musical">
+        <label for="Musical">Musical</label><br>
+
+        <input type="checkbox" id="Documentary" name="Documentary" value="Documentary">
+        <label for="Documentary">Documentary</label><br>
+
+        <input type="checkbox" id="Western" name="Western" value="Western">
+        <label for="Western">Western</label><br>
+
+        <input type="checkbox" id="Film-Noir" name="Film-Noir" value="Film-Noir">
+        <label for="Film-Noir">Film-Noir</label><br>
+
+    </div>
+    <div id="selectedGenres"></div>
+    <button id="getRecommendations">Получить рекомендации</button>
+    <div id="recommendations"></div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
